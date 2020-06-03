@@ -1,5 +1,5 @@
 /// An SMS library for flutter
-library sms_maintained;
+library sms_send_receive;
 
 import 'dart:async';
 import 'package:flutter/services.dart';

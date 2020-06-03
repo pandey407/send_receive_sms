@@ -104,16 +104,16 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "send_receive_sms",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "1.19"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/Android/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "1.11"
-    },
-    {
-      "name": "sms_maintained",
-      "rootUri": "../../",
-      "packageUri": "lib/",
-      "languageVersion": "1.19"
     },
     {
       "name": "source_span",
@@ -175,7 +175,7 @@
       "packageUri": "lib/"
     }
   ],
-  "generated": "2020-06-03T07:20:44.186625Z",
+  "generated": "2020-06-03T08:10:58.439690Z",
   "generator": "pub",
   "generatorVersion": "2.8.3"
 }

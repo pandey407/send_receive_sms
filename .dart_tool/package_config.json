@@ -38,13 +38,13 @@
       "languageVersion": "2.0"
     },
     {
-      "name": "sms_maintained",
+      "name": "send_receive_sms",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "1.19"
     }
   ],
-  "generated": "2020-06-03T07:20:32.081853Z",
+  "generated": "2020-06-03T08:10:38.136400Z",
   "generator": "pub",
   "generatorVersion": "2.8.3"
 }

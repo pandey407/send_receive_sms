@@ -1,9 +1,8 @@
-name: sms_maintained
-description: SMS library for Flutter applications. Its allow to send, receive, query sms messages, sms delivery and query contacts info. It exposes an easy and friendly API for developing a completely functional sms app in Flutter.
-version: 0.2.5
-author: "geordyvancutsem <geordyvc@gmail.com>"
-homepage: "https://github.com/geordyvcErasmus/flutter_sms"
-repository: "https://github.com/geordyvcErasmus/flutter_sms"
+name: send_receive_sms
+description: SMS plugin for flutter application to send and receive in-app SMS.
+author: "ashleshpandey <pandeyashlesh3@gmail.com>"
+homepage: "https://github.com/pandey407/send_receive_sms"
+repository: "https://github.com/pandey407/send_receive_sms"
 
 dependencies:
   flutter:
@@ -11,19 +10,6 @@ dependencies:
 
 environment:
   sdk: ">=1.19.0 <3.0.0"
-
-analyzer:
-  strong-mode: true
-
-linter:
-  rules:
-    - camel_case_types
-    - hash_and_equals
-    - iterable_contains_unrelated_type
-    - list_remove_unrelated_type
-    - unrelated_type_equality_checks
-    - valid_regexps
-
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
