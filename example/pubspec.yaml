@@ -14,7 +14,7 @@ dev_dependencies:
     sdk: flutter
 
   send_receive_sms:
-    path: ../
+    github: https://github.com/pandey407/send_receive_sms
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
