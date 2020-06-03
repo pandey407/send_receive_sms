@@ -46,9 +46,7 @@ class _SmsSendPageState extends State<SmsSendPage> {
     SmsSender sender = new SmsSender();
     SmsMessage message = new SmsMessage(address, toSend);
     message.onStateChanged.listen((state) {
-      if (state == SmsMessageState.Sending) {
-        //_showToast('Sending', false);
-      }
+      if (state == SmsMessageState.Sending) {}
       if (state == SmsMessageState.Sent) {
         print('SENT');
       } else if (state == SmsMessageState.Delivered) {
@@ -63,7 +61,7 @@ class _SmsSendPageState extends State<SmsSendPage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('लिखित/लाइसेन्स नतिजा'),
+          title: Text('Send Receive SMS'),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
